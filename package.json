@@ -1,0 +1,26 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "practice.js",
+  "eslint-documentation-link1": "https://sourcelevel.io/blog/how-to-setup-eslint-and-prettier-on-node",
+  "eslint-documentation-link2": "https://dev.to/saurabhggc/add-eslint-prettier-and-airbnb-to-your-project-3mo8",
+  "scripts": {
+    "lint": "eslint --fix main.js",
+    "format": "prettier -w ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.0.12",
+    "restify": "^8.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": ["prettier", "airbnb-base"],
+  "plugins": ["prettier"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "no-unused-vars": "error",
+    "no-empty": [
+      "error",
+      {
+        "allowEmptyCatch": true
+      }
+    ]
+  }
+}
