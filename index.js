@@ -8,5 +8,6 @@ const app = restify.createServer();
 const asd = () => {};
 
 asd();
+
 app.get('/', (req, res) => res.send({ hello: 'World' }));
 app.listen(PORT);
