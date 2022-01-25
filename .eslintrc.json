@@ -14,12 +14,18 @@
     "ecmaVersion": 2018
   },
   "rules": {
-    "no-unused-vars": "error",
+    "prettier/prettier": "error",
+    "no-unused-vars": "warn",
+    "no-console": "warn",
+    "func-names": "off",
+    "object-shorthand": "error",
+    "class-methods-use-this": "error",
     "no-empty": [
       "error",
       {
         "allowEmptyCatch": true
       }
-    ]
+    ],
+    "no-empty-function": "error"
   }
 }
